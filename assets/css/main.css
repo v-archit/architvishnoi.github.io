@@ -1,12 +1,6 @@
 @import url(fontawesome-all.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,600,600italic");
 
-/*
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
-
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -2752,7 +2746,7 @@ input, select, textarea {
 			min-height: 23em;
 			overflow: hidden;
 			position: relative;
-			width: 40%;
+			width: 50%;
 		}
 
 			.tiles article .image {
@@ -2827,7 +2821,7 @@ input, select, textarea {
 			}
 
 			.tiles article:nth-child(4n - 1), .tiles article:nth-child(4n - 2) {
-				width: 60%;
+				width: 50%;
 			}
 
 			.tiles article:nth-child(1):before {
@@ -2853,6 +2847,15 @@ input, select, textarea {
 
 			.tiles article:nth-child(6):before {
 				background-color: #87c5a4;
+			}
+
+			.tiles article:nth-child(7):before {
+				
+				background-color: #6fc3df;
+			}
+
+			.tiles article:nth-child(8):before {
+				background-color: #8d82c4;
 			}
 
 		@media screen and (max-width: 1280px) {
